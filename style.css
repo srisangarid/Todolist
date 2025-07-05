@@ -1,0 +1,29 @@
+html,
+body {
+    text-align: center;
+    background-color: lightblue;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+button {
+    color: rgb(122, 38, 38);
+    text-decoration-color: rgb(4, 27, 233);
+    height: 30px;
+    width: 150px;
+    text-rendering: auto;
+    justify-content: space-between;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+input {
+    height: 25px;
+    width: 150px;
+    border-radius: 2px;
+
+}
+
+.strike {
+    text-decoration: line-through;
+    color: gray;
+}
